@@ -1,0 +1,18 @@
+.banner {
+}
+
+.banner-image {
+
+/* 
+  mobile:   width: 100%;
+*/
+
+}
+.home-body {
+  display: flex;
+  text-align: center;
+}
+
+.section {
+  width: 33%;
+}
