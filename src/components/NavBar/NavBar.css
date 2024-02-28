@@ -1,3 +1,14 @@
 .navbar {
+  background-color: white;
   display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
 }

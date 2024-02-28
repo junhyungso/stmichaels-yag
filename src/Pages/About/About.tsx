@@ -1,14 +1,14 @@
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
-import './Members.css';
+import './About.css';
 
-const Members = () => {
+const About = () => {
   return (
     <>
       <div className="banner">
         <NavBar />
         <div>
-          <h1>Members</h1>
+          <h1>About</h1>
         </div>
       </div>
       <div className="home-body">
@@ -20,4 +20,4 @@ const Members = () => {
   );
 };
 
-export default Members;
+export default About;

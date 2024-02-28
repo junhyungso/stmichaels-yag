@@ -1,18 +1,23 @@
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
-import './Members.css';
+import './Signup.css';
 
-const Members = () => {
+const Signup = () => {
   return (
     <>
       <div className="banner">
         <NavBar />
         <div>
-          <h1>Members</h1>
+          <h1>Signup</h1>
         </div>
       </div>
       <div className="home-body">
-        <div className="section"></div>
+        <div className="section">
+          <form>
+            <label>Name: </label>
+            <input />
+          </form>
+        </div>
       </div>
 
       <Footer />
@@ -20,4 +25,4 @@ const Members = () => {
   );
 };
 
-export default Members;
+export default Signup;
