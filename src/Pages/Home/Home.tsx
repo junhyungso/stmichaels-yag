@@ -16,11 +16,22 @@ const Home = () => {
       <div className="home-body">
         <div className="section">
           <h2>Mass Schedule</h2>
-          <div>Every Sunday 5:30pm</div>
+          <div>Every Sunday 5:30pm (Korean)</div>
         </div>
         <div className="section">
           <h2>St. Michael's Korean Young Adult Group</h2>
-          <div>Our Young Adult Group is a fsdkjafkjdsfkj</div>
+          <div>
+            The Young Adult Group consists of about 40 members between the ages
+            of a high school graduate and 40 years old. Open to all those who
+            participate in the Sunday evening mass, the group members are mostly
+            bilinguals and include those who have recently arrived in the U.S.
+            The group seeks to provide support in daily lives and faith
+            development, by deepening fellowship both among the members and with
+            young adult groups in nearby parishes. The members serve for the
+            Sunday evening mass, partake in community service, hold weekly bible
+            studies, and provide volunteer service in planning and hosting
+            church events throughout the year.
+          </div>
         </div>
         <div className="section">
           <h2>Upcoming Events</h2>
