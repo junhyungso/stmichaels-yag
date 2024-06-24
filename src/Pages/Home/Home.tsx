@@ -4,14 +4,20 @@ import NavBar from '../../components/NavBar/NavBar';
 import './Home.css';
 
 const Home = () => {
+  const backgroundStyle = {
+    backgroundImage: `url(${PraiseNight})`,
+    height: '80vh',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: '100%',
+    marginLeft: '-20px',
+  };
+
   return (
     <>
-      <div className="banner">
-        <NavBar />
-        <div>
-          <h1>St. Michael's Korean YAG</h1>
-        </div>
-        <img src={PraiseNight} alt="Praise Night" className="banner-image" />
+      <NavBar />
+      <div style={backgroundStyle}>
+        <h1 className="header">St. Michael's Korean YAG</h1>
+        {/* <img src={PraiseNight} alt="Praise Night" className="banner-image" /> */}
       </div>
       <div className="home-body">
         <div className="section">
