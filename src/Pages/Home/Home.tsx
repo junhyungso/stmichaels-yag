@@ -20,6 +20,7 @@ const Home = () => {
         {/* <img src={PraiseNight} alt="Praise Night" className="banner-image" /> */}
       </div>
       <div className="home-body">
+        <div>API</div>
         <div className="section">
           <h2>Mass Schedule</h2>
           <div>Every Sunday 5:30pm (Korean)</div>
