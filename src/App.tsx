@@ -3,7 +3,7 @@ import './App.css';
 import About from './Pages/About/About';
 import Gallery from './Pages/Gallery/Gallery';
 import Home from './Pages/Home/Home';
-import Members from './Pages/Members/Members';
+import PrayerIntentions from './Pages/Members/PrayerIntentions';
 import Signup from './Pages/Signup/Signup';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="members" element={<Members />} />
+        <Route path="prayer-intentions" element={<PrayerIntentions />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="signup" element={<Signup />} />
       </Routes>
