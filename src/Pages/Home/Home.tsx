@@ -9,7 +9,7 @@ const Home = () => {
     height: '80vh',
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100%',
-    marginLeft: '-20px',
+    marginLeft: '-30px',
   };
 
   return (
