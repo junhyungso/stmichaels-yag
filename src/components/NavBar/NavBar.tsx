@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
+import logo from '../../assets/stmichaelslogo.png';
 import './NavBar.css';
 
 const NavBar = () => {
   return (
     <div className="navbar">
       <nav className="home-nav">
-        <Link to="/">Home</Link>
+        <Link to="/">
+          <img width={60} src={logo} alt="logo" />
+        </Link>
       </nav>
       <ul className="ul">
         <li>
