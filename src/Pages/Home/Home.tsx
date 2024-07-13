@@ -42,12 +42,14 @@ const Home = () => {
         <div className="section">
           <h2>Upcoming Events</h2>
           <div>
-            <p>St. Patricks Day</p>
-            <p>Easter</p>
+            <p>Field Day</p>
+            <p>RYC Retreat</p>
           </div>
         </div>
       </div>
-
+      <div>
+        <h2>Gallery</h2>
+      </div>
       <Footer />
     </>
   );
